@@ -1,6 +1,5 @@
 package au.com.advent.crossedwires;
 
-import org.omg.CORBA.INTERNAL;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -207,6 +206,4 @@ public class CrossedWires {
     private static void initialiseWireLists(String[] wirePaths, List<String> wireLists) {
         Collections.addAll(wireLists, wirePaths);
     }
-
-
 }
